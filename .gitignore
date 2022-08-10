@@ -156,3 +156,8 @@ Desktop.ini
 ######################
 /coverage/
 /.nyc_output/
+
+#######################
+# Maven frontend plugin
+#######################
+/webapp/node

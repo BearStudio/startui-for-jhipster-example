@@ -40,7 +40,12 @@
     "java:war:prod": "npm run java:war -- -Pprod",
     "prepare": "husky install",
     "prettier:check": "prettier --check \"{,src/**/}*.{md,json,yml,html,java}\"",
-    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml,html,java}\""
+    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml,html,java}\"",
+    "webapp:build": "cd webapp && yarn build",
+    "webapp:dev": "cd webapp && yarn dev",
+    "webapp:install": "cd webapp && yarn install",
+    "webapp:storybook": "cd webapp && yarn storybook",
+    "webapp:test": "cd webapp && yarn test"
   },
   "config": {
     "backend_port": "8080",
